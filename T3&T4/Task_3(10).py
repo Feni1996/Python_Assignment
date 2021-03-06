@@ -1,0 +1,5 @@
+a=input("Enter sequence of number seperated by , : ")
+l=a.split(",")
+t=tuple(a.split(","))
+print(f"List is {l}")
+print(f"Tuple is {t}")
