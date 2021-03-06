@@ -1,0 +1,35 @@
+x=123
+for i in x:
+    print(i)
+
+Output: TypeError: 'int' object is not iterable
+
+i=0
+while(i<5):
+    print(i)
+    i+=1
+    if(i==3):
+        break
+    else:
+        print("error")
+
+Output:
+0
+error
+1    
+error
+2
+
+c=0
+while(True):
+    print(c)
+    c+=1
+    if c>=5:
+        break
+
+Output:
+0
+1
+2
+3
+4
